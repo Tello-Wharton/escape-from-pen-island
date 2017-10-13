@@ -1,40 +1,38 @@
 fileFormatVersion: 2
 guid: 3cbefb21ad14b4493bb494531305d733
-timeCreated: 1507929376
+timeCreated: 1507934141
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: bone 1
-    100004: bone 2
-    100006: bone 3
-    100008: bone 4
-    100010: bone 5
-    100012: bone 6
-    100014: bone 7
-    100016: bone 7_end
+    100000: bone 1
+    100002: bone 2
+    100004: bone 3
+    100006: bone 4
+    100008: bone 5
+    100010: bone 6
+    100012: bone 7
+    100014: bone 7_end
+    100016: //RootNode
     100018: pen 1
     100020: pen 1 rig
     100022: root
-    400000: //RootNode
-    400002: bone 1
-    400004: bone 2
-    400006: bone 3
-    400008: bone 4
-    400010: bone 5
-    400012: bone 6
-    400014: bone 7
-    400016: bone 7_end
-    400018: pen 1
+    400000: bone 1
+    400002: bone 2
+    400004: bone 3
+    400006: bone 4
+    400008: bone 5
+    400010: bone 6
+    400012: bone 7
+    400014: bone 7_end
+    400016: pen 1
+    400018: //RootNode
     400020: pen 1 rig
     400022: root
-    2300000: //RootNode
-    2300002: pen 1
-    3300000: //RootNode
-    3300002: pen 1
-    4300000: Circle
-    4300002: pen 1
+    4300000: pen 1
+    7400000: pen 1 rig|walk
+    9500000: //RootNode
+    13700000: pen 1
   materials:
     importMaterials: 1
     materialName: 0
@@ -51,13 +49,66 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: pen 1 rig|walk
+      takeName: pen 1 rig|walk
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pen 1
+        weight: 1
+      - path: pen 1 rig
+        weight: 1
+      - path: pen 1 rig/root
+        weight: 1
+      - path: pen 1 rig/root/bone 1
+        weight: 1
+      - path: pen 1 rig/root/bone 1/bone 2
+        weight: 1
+      - path: pen 1 rig/root/bone 1/bone 2/bone 3
+        weight: 1
+      - path: pen 1 rig/root/bone 1/bone 2/bone 3/bone 4
+        weight: 1
+      - path: pen 1 rig/root/bone 1/bone 2/bone 3/bone 4/bone 5
+        weight: 1
+      - path: pen 1 rig/root/bone 1/bone 2/bone 3/bone 4/bone 5/bone 6
+        weight: 1
+      - path: pen 1 rig/root/bone 1/bone 2/bone 3/bone 4/bone 5/bone 6/bone 7
+        weight: 1
+      - path: pen 1 rig/root/bone 1/bone 2/bone 3/bone 4/bone 5/bone 6/bone 7/bone
+          7_end
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -96,10 +147,10 @@ ModelImporter:
     rootMotionBoneName: 
     rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
