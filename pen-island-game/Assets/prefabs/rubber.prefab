@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 4853241112651146}
   - component: {fileID: 95233442777950922}
   - component: {fileID: 114425521760286946}
+  - component: {fileID: 54441713204774650}
   m_Layer: 0
   m_Name: rubber
   m_TagString: Untagged
@@ -274,6 +275,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &54441713204774650
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1877718149596982}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!95 &95233442777950922
 Animator:
   serializedVersion: 3

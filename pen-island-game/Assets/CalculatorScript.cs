@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CalculatorScript : MonoBehaviour
+public class CalculatorScript : MonoBehaviour, IKillable
 {
 
     Animator animator;
-    float speed = 6f;
+    float speed = 0f;//6f;
 
     // Use this for initialization
     void Start()
@@ -30,4 +30,22 @@ public class CalculatorScript : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
     }
+
+    public void Shot()
+    {
+        print("SHOT!");
+    }
+
+    void OnTriggerEnter(Collider collider)
+    {
+
+        print("Called! YAY!");
+
+        if(collider.gameObject.tag == "Bullet")
+        {
+            print("Kill ME");
+
+        }
+    }
+
 }
