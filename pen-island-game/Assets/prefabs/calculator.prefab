@@ -81,6 +81,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4932053847605440}
   - component: {fileID: 95181377427929560}
+  - component: {fileID: 114774618895170366}
   m_Layer: 0
   m_Name: calculator
   m_TagString: Untagged
@@ -121,8 +122,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1123304955697410}
-  m_LocalRotation: {x: 0.60693806, y: 0.36280334, z: -0.003378422, w: 0.70709866}
-  m_LocalPosition: {x: 0.012111876, y: -0.020040547, z: 0.023792492}
+  m_LocalRotation: {x: 0.61705613, y: 0.33400688, z: -0.020625299, w: 0.71221894}
+  m_LocalPosition: {x: 0.011169666, y: -0.020348318, z: 0.022300676}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4105840372596068}
@@ -148,8 +149,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1856380234363988}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.02071862, y: -0.8350003, z: 0.031514492, w: 0.5489555}
+  m_LocalPosition: {x: 301.60297, y: 50.129936, z: 367.818}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4894481133490078}
@@ -174,6 +175,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114774618895170366
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1856380234363988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc58ce50f931f74e8e8199b11f16274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137597395481492480
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
