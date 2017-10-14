@@ -13,4 +13,10 @@ EditorBuildSettings:
     guid: 29565a42f0eaf46a695abbb478d146fa
   - enabled: 1
     path: Assets/_Scenes/Tips.unity
+    guid: e44f639d202324c40bc07106e050dcbc
+  - enabled: 1
+    path: Assets/_Scenes/End Screen.unity
+    guid: 70bfb7c9ec94746c4ae75a141cd81b03
+  - enabled: 1
+    path: Assets/_Scenes/Game Over.unity
     guid: 00000000000000000000000000000000
