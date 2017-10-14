@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class pie : MonoBehaviour {
 
 	public void loadScene()
-	{ SceneManager.LoadScene("Tips", LoadSceneMode.Additive);
+	{ SceneManager.LoadScene("Tips", LoadSceneMode.Single);
 	}
 }

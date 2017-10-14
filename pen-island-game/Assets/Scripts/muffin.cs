@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class muffin : MonoBehaviour {
 
 	public void loadScene()
-	{ SceneManager.LoadScene("Start Screen", LoadSceneMode.Additive);
+	{ SceneManager.LoadScene("Start Screen", LoadSceneMode.Single);
 	}
 }
