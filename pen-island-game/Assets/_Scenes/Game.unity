@@ -250,6 +250,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minutesPerSecond: 300
+--- !u!1 &243061293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 243061294}
+  m_Layer: 0
+  m_Name: Bullet Spawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &243061294
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 243061293}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 440229691}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &409579681
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +387,7 @@ Transform:
   m_Children:
   - {fileID: 409579682}
   - {fileID: 757915548}
+  - {fileID: 243061294}
   m_Father: {fileID: 1599756626}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -418,7 +447,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 757915547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.758, z: 0.144}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2136362639}
@@ -941,6 +970,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerSpawnPoints: {fileID: 1314139203}
   landingAreaPrefab: {fileID: 107190, guid: 5a5a662e3eb7f419f94aa3be78b68ae2, type: 2}
+  bulletPrefab: {fileID: 0}
+  bulletSpawn: {fileID: 0}
 --- !u!82 &1584713199
 AudioSource:
   m_ObjectHideFlags: 0
