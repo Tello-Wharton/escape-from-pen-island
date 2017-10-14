@@ -7,6 +7,7 @@ public class CalculatorScript : MonoBehaviour, IKillable
 
     Animator animator;
     float speed = 0f;//6f;
+    Mesh myMesh;
 
     // Use this for initialization
     void Start()
@@ -29,6 +30,19 @@ public class CalculatorScript : MonoBehaviour, IKillable
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
+        Mesh mesh = GetComponent<MeshFilter>().mesh;
+        Vector3[] vertices = mesh.vertices;
+        Vector3[] normals = mesh.normals;
+        int i = 0;
+        while (i < vertices.Length)
+        {
+            vertices[i] += normals[i] * Mathf.Sin(Time.time);
+            i++;
+        }
+        mesh.vertices = vertices;
+
+        myMesh = mesh;
+
     }
 
     public void Shot()
@@ -44,6 +58,7 @@ public class CalculatorScript : MonoBehaviour, IKillable
         if(collider.gameObject.tag == "Bullet")
         {
             print("Kill ME");
+            Destroy(gameObject);
 
         }
     }
