@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Pen1Script : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    Animator animator;
+    float speed = 12f;
+
+    // Use this for initialization
+    void Start () {
+        animator = gameObject.GetComponent<Animator>();
+        animator.speed = speed / 10;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -15,10 +19,13 @@ public class Pen1Script : MonoBehaviour {
         var player = GameObject.Find("Player");
 
         var heading = player.transform.position - transform.position;
-
         var direction = heading / heading.magnitude;
+        var cake = Quaternion.LookRotation(direction);
 
-        transform.Translate(direction);
+        transform.rotation = (cake);
+
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+
 
 		
 	}
