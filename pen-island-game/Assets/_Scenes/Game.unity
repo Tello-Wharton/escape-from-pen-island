@@ -258,6 +258,47 @@ Transform:
 Transform:
   m_PrefabParentObject: {fileID: 428616, guid: b653dc06ab0b844848e8537cc0ea3e91, type: 2}
   m_PrefabInternal: {fileID: 1347875152}
+--- !u!1 &442343683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 442343685}
+  - component: {fileID: 442343684}
+  m_Layer: 0
+  m_Name: PenSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &442343684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442343683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1bbf6d7753877344bb2e76f3ccc25a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  penPrefab: {fileID: 1966532727188964, guid: 61de54574b4d94ecbbc70b3dd1e55bd7, type: 2}
+--- !u!4 &442343685
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 442343683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 311.53555, y: 67.74065, z: 425.35742}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &581148786
 GameObject:
   m_ObjectHideFlags: 0
