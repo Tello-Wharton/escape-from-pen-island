@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PencilScript : MonoBehaviour {
+public class CalculatorScript : MonoBehaviour
+{
 
     Animator animator;
     float speed = 6f;
@@ -27,8 +28,6 @@ public class PencilScript : MonoBehaviour {
         transform.rotation = (cake);
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
-
-
 
     }
 }

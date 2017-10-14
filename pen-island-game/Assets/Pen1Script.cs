@@ -2,20 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pen1Script : MonoBehaviour {
+public class Pen1Script : MonoBehaviour
+{
 
     Animator animator;
     float speed = 6f;
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         animator = gameObject.GetComponent<Animator>();
-        
-        animator.speed = (speed / (10f * transform.localScale.x));
+        animator.speed = speed / (10f * transform.localScale.x);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
 
         var player = GameObject.Find("Player");
 
@@ -27,7 +29,5 @@ public class Pen1Script : MonoBehaviour {
 
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
-
-		
-	}
+    }
 }
