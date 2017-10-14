@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class cake : MonoBehaviour {
 
 	public void loadScene()
-	{ SceneManager.LoadScene("Game", LoadSceneMode.Additive);
+	{ SceneManager.LoadScene("Game", LoadSceneMode.Single);
 	}
 }
