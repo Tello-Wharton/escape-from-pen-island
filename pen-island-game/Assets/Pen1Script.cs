@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Pen1Script : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    Animator animator;
+    float speed = 4f;
+
+    // Use this for initialization
+    void Start () {
+        animator = gameObject.GetComponent<Animator>();
+        animator.speed = speed / 10;
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -20,7 +24,7 @@ public class Pen1Script : MonoBehaviour {
 
         transform.rotation = (cake);
 
-        transform.Translate( - direction * Time.deltaTime * 4);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
 
 		
