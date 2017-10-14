@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pen1Script : MonoBehaviour {
 
     Animator animator;
-    float speed = 4f;
+    float speed = 12f;
 
     // Use this for initialization
     void Start () {
