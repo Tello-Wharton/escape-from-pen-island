@@ -126,7 +126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4644487279981518}
   - component: {fileID: 95451569836323204}
-  - component: {fileID: 114257704989972742}
+  - component: {fileID: 114743342722701156}
   m_Layer: 0
   m_Name: tipex
   m_TagString: Untagged
@@ -320,7 +320,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114257704989972742
+--- !u!114 &114743342722701156
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -328,7 +328,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1847786695271562}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fc58ce50f931f74e8e8199b11f16274, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fa49db32e156884a8a12ab5adbf1cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!137 &137142036937971106

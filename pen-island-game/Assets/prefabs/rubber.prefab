@@ -125,6 +125,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4853241112651146}
   - component: {fileID: 95233442777950922}
+  - component: {fileID: 114425521760286946}
   m_Layer: 0
   m_Name: rubber
   m_TagString: Untagged
@@ -290,6 +291,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114425521760286946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1877718149596982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb4d9653206d2b646b5938667775461c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137282226737182896
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
