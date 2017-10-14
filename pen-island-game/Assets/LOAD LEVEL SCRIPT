@@ -1,0 +1,8 @@
+ //LOAD LEVEL SCRIPT
+ #pragma strict
+ 
+ var "Game" : String;
+ 
+ function LoadScene () {
+     Application.LoadLevel ("Game");
+ }
