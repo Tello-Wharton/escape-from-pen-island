@@ -82,6 +82,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4261927812730024}
+  - component: {fileID: 136656173643800262}
   m_Layer: 0
   m_Name: root
   m_TagString: Untagged
@@ -128,6 +129,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4310740020551074}
+  - component: {fileID: 136741773541966146}
   m_Layer: 0
   m_Name: bone 3
   m_TagString: Untagged
@@ -408,6 +410,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 853c4b6a49f24914ca0a8d7f00e57776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!136 &136656173643800262
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253297732678306}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.005
+  m_Height: 0.04
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.02, z: 0}
+--- !u!136 &136741773541966146
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386010959405328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.005
+  m_Height: 0.06
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.03, z: 0}
 --- !u!137 &137256764115196532
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

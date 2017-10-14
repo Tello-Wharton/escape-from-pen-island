@@ -64,6 +64,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4370657924900344}
+  - component: {fileID: 65811018331450396}
   m_Layer: 0
   m_Name: Bone
   m_TagString: Untagged
@@ -79,6 +80,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4188509230480146}
+  - component: {fileID: 65580636256554156}
   m_Layer: 0
   m_Name: Bone.004_end
   m_TagString: Untagged
@@ -290,6 +292,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &65580636256554156
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1419345449955488}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.03, z: 0.02}
+  m_Center: {x: 0, y: -0.01, z: 0}
+--- !u!65 &65811018331450396
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1399043201753138}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.03, z: 0.02}
+  m_Center: {x: 0, y: 0.02, z: 0}
 --- !u!95 &95233442777950922
 Animator:
   serializedVersion: 3
