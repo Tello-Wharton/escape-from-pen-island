@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 09923f802da0c49a0bd884bdf30f8eb5
+timeCreated: 1507989974
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pencil.001
+    100004: pencil.002
+    100006: pencil.003
+    100008: pencil.004
+    100010: pencil.005
+    100012: pencil.006
+    100014: pencil.007
+    100016: pencil.008
+    100018: pencil.009
+    100020: pencil.010
+    100022: pencil.011
+    100024: pencil.012
+    100026: pencil.013
+    100028: pencil.014
+    100030: pencil.015
+    100032: pencil.016
+    100034: pencil.017
+    100036: pencil.018
+    400000: //RootNode
+    400002: pencil.001
+    400004: pencil.002
+    400006: pencil.003
+    400008: pencil.004
+    400010: pencil.005
+    400012: pencil.006
+    400014: pencil.007
+    400016: pencil.008
+    400018: pencil.009
+    400020: pencil.010
+    400022: pencil.011
+    400024: pencil.012
+    400026: pencil.013
+    400028: pencil.014
+    400030: pencil.015
+    400032: pencil.016
+    400034: pencil.017
+    400036: pencil.018
+    2300000: pencil.001
+    2300002: pencil.002
+    2300004: pencil.003
+    2300006: pencil.004
+    2300008: pencil.005
+    2300010: pencil.006
+    2300012: pencil.007
+    2300014: pencil.008
+    2300016: pencil.009
+    2300018: pencil.010
+    2300020: pencil.011
+    2300022: pencil.012
+    2300024: pencil.013
+    2300026: pencil.014
+    2300028: pencil.015
+    2300030: pencil.016
+    2300032: pencil.017
+    2300034: pencil.018
+    3300000: pencil.001
+    3300002: pencil.002
+    3300004: pencil.003
+    3300006: pencil.004
+    3300008: pencil.005
+    3300010: pencil.006
+    3300012: pencil.007
+    3300014: pencil.008
+    3300016: pencil.009
+    3300018: pencil.010
+    3300020: pencil.011
+    3300022: pencil.012
+    3300024: pencil.013
+    3300026: pencil.014
+    3300028: pencil.015
+    3300030: pencil.016
+    3300032: pencil.017
+    3300034: pencil.018
+    4300000: pencil.018
+    4300002: pencil.017
+    4300004: pencil.016
+    4300006: pencil.015
+    4300008: pencil.014
+    4300010: pencil.013
+    4300012: pencil.012
+    4300014: pencil.011
+    4300016: pencil.010
+    4300018: pencil.009
+    4300020: pencil.008
+    4300022: pencil.007
+    4300024: pencil.006
+    4300026: pencil.005
+    4300028: pencil.004
+    4300030: pencil.003
+    4300032: pencil.002
+    4300034: pencil.001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

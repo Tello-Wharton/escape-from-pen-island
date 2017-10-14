@@ -16,6 +16,9 @@ ModelImporter:
     100016: pencil_rig
     100018: root
     100020: //RootNode
+    100022: tipex
+    100024: tipex_juce_bone
+    100026: tipex_rig
     400000: bone_1
     400002: bone_2
     400004: bone_3
@@ -27,11 +30,18 @@ ModelImporter:
     400016: pencil_rig
     400018: root
     400020: //RootNode
+    400022: tipex
+    400024: tipex_juce_bone
+    400026: tipex_rig
+    2300000: tipex
+    3300000: tipex
     4300000: pencil
+    4300002: tipex
     7400000: Default Take
     7400002: walk
     9500000: //RootNode
     13700000: pencil
+    13700002: tipex
   materials:
     importMaterials: 1
     materialName: 0
