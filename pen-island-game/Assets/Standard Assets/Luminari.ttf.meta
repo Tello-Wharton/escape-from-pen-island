@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0aad7771ad0be422bb59a498cda8a85e
+timeCreated: 1507998363
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Luminari
+  fontNames:
+  - Luminari
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
