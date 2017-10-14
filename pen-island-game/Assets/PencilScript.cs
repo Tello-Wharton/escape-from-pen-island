@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PencilScript : MonoBehaviour {
 
@@ -40,6 +42,11 @@ public class PencilScript : MonoBehaviour {
         {
             Destroy(gameObject);
 
+        }
+
+        if (collider.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene("Game Over", LoadSceneMode.Single);
         }
     }
 

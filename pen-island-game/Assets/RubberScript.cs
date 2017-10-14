@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RubberScript : MonoBehaviour
 {
@@ -39,6 +40,11 @@ public class RubberScript : MonoBehaviour
         {
             Destroy(gameObject);
 
+        }
+
+        if (collider.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene("Game Over", LoadSceneMode.Single);
         }
     }
 
