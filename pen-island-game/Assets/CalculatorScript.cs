@@ -6,7 +6,7 @@ public class CalculatorScript : MonoBehaviour, IKillable
 {
 
     Animator animator;
-    float speed = 0f;//6f;
+    float speed = 6f;
     Mesh myMesh;
 
     // Use this for initialization
@@ -53,11 +53,8 @@ public class CalculatorScript : MonoBehaviour, IKillable
     void OnTriggerEnter(Collider collider)
     {
 
-        print("Called! YAY!");
-
         if(collider.gameObject.tag == "Bullet")
         {
-            print("Kill ME");
             Destroy(gameObject);
 
         }

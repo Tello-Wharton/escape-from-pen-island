@@ -30,4 +30,16 @@ public class Pen1Script : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
 
     }
+
+
+    void OnTriggerEnter(Collider collider)
+    {
+
+        if (collider.gameObject.tag == "Bullet")
+        {
+            Destroy(gameObject);
+
+        }
+    }
+
 }

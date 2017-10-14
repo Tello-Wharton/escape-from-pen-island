@@ -31,4 +31,16 @@ public class PencilScript : MonoBehaviour {
 
 
     }
+
+
+    void OnTriggerEnter(Collider collider)
+    {
+
+        if (collider.gameObject.tag == "Bullet")
+        {
+            Destroy(gameObject);
+
+        }
+    }
+
 }

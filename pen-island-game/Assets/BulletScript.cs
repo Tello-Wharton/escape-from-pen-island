@@ -54,23 +54,4 @@ public class BulletScript : MonoBehaviour {
         
     }
 
-    void OnTriggerEnter(Collider collider)
-    {
-        print("YAYAYAYYAY");
-        
-        
-
-        //Destroy(collider.gameObject);
-
-        if (collider.gameObject.GetComponent<CalculatorScript>() != null)
-        {
-            print("Working??");
-
-            IKillable component = collider.gameObject.GetComponent(typeof(IKillable)) as IKillable;
-            component.Shot();
-
-            
-        }
-    }
-
 }

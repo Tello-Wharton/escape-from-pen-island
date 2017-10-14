@@ -22,4 +22,5 @@ public class Eyes : MonoBehaviour {
 			eyes.fieldOfView = defaultFOV;
 		}*/
 	}
+
 }
