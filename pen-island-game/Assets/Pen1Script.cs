@@ -18,7 +18,7 @@ public class Pen1Script : MonoBehaviour {
 
         var direction = heading / heading.magnitude;
 
-        transform.Translate(direction);
+        transform.Translate(direction * Time.deltaTime * 4);
 
 		
 	}
