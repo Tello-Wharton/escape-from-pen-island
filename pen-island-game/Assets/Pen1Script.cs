@@ -15,10 +15,13 @@ public class Pen1Script : MonoBehaviour {
         var player = GameObject.Find("Player");
 
         var heading = player.transform.position - transform.position;
-
         var direction = heading / heading.magnitude;
+        var cake = Quaternion.LookRotation(direction);
 
-        transform.Translate(direction * Time.deltaTime * 4);
+        transform.rotation = (cake);
+
+        transform.Translate( - direction * Time.deltaTime * 4);
+
 
 		
 	}
