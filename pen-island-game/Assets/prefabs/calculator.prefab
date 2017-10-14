@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4509141350165764}
+  - component: {fileID: 65253660172291104}
   m_Layer: 0
   m_Name: Bone
   m_TagString: Untagged
@@ -83,7 +84,6 @@ GameObject:
   - component: {fileID: 95181377427929560}
   - component: {fileID: 114554949528822742}
   - component: {fileID: 54439145954376240}
-  - component: {fileID: 64094111973444282}
   m_Layer: 0
   m_Name: calculator
   m_TagString: Untagged
@@ -152,7 +152,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1856380234363988}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 391.6858, y: 50.009155, z: 393.62558}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4894481133490078}
@@ -175,20 +175,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &64094111973444282
-MeshCollider:
+--- !u!65 &65253660172291104
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1856380234363988}
+  m_GameObject: {fileID: 1123304955697410}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
+  m_Size: {x: -0.08, y: 0.13, z: 0.01}
+  m_Center: {x: 0, y: 0.06, z: 0}
 --- !u!95 &95181377427929560
 Animator:
   serializedVersion: 3
@@ -212,7 +210,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1856380234363988}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 28dd076de0546be40b13bbc78c918503, type: 3}
   m_Name: 
