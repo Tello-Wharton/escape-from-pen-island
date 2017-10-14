@@ -10,7 +10,8 @@ public class Pen1Script : MonoBehaviour {
     // Use this for initialization
     void Start () {
         animator = gameObject.GetComponent<Animator>();
-        animator.speed = speed / 10;
+        
+        animator.speed = (speed / (10f * transform.localScale.x));
     }
 	
 	// Update is called once per frame
