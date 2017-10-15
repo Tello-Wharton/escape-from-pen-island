@@ -7,7 +7,7 @@ public class CalculatorScript : MonoBehaviour
 {
 
     Animator animator;
-    float speed = 6f;
+    float speed = 10f;
 
     // Use this for initialization
     void Start()
