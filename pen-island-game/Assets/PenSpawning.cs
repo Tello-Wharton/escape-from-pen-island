@@ -23,9 +23,12 @@ public class PenSpawning : MonoBehaviour {
 
             count = 0;
 
+            var range = 100f;
+            Vector3 offset = new Vector3(Random.Range(-range, range), 0, Random.Range(-range, range));
+
             var pen = (GameObject)Instantiate(
             penPrefab,
-            transform.position,
+            transform.position + offset,
             transform.rotation);
         }
 		
