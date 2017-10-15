@@ -200,6 +200,11 @@ Prefab:
       propertyPath: m_Name
       value: pencil rigid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 54084965867476996, guid: b9df67da56f074b3c97070d1f54ec7b2,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b9df67da56f074b3c97070d1f54ec7b2, type: 2}
   m_IsPrefabParent: 0
@@ -293,6 +298,11 @@ Prefab:
     - target: {fileID: 95122082197882294, guid: 61de54574b4d94ecbbc70b3dd1e55bd7,
         type: 2}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54525467919158108, guid: 61de54574b4d94ecbbc70b3dd1e55bd7,
+        type: 2}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -692,7 +702,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2 - Jump using the Space Bar
+  m_Text: 2 - Shoot using the Space Bar
 --- !u!222 &958958850
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -785,6 +795,11 @@ Prefab:
     - target: {fileID: 95122082197882294, guid: 61de54574b4d94ecbbc70b3dd1e55bd7,
         type: 2}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54525467919158108, guid: 61de54574b4d94ecbbc70b3dd1e55bd7,
+        type: 2}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1015,6 +1030,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4739853969081058, guid: b9df67da56f074b3c97070d1f54ec7b2, type: 2}
       propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54084965867476996, guid: b9df67da56f074b3c97070d1f54ec7b2,
+        type: 2}
+      propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1525,7 +1545,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 3 - Left-click to shoot
+  m_Text: 3 - Use mouse for orientation
 --- !u!222 &2067713746
 CanvasRenderer:
   m_ObjectHideFlags: 0
