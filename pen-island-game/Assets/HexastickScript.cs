@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class HexastickScript : MonoBehaviour {
 
-	void onTriggerEnter (Collider collider) {
+	void OnTriggerEnter(Collider collider) {
 		if (collider.gameObject.tag == "Player")
 			SceneManager.LoadScene ("End Screen", LoadSceneMode.Single);
 			
