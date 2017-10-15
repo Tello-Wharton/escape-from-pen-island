@@ -7,7 +7,8 @@ public class TipexScript : MonoBehaviour
 {
 
     Animator animator;
-    float speed = 10f;
+    float speed = 6f;
+    int lives = 20;
 
     // Use this for initialization
     void Start()
@@ -38,9 +39,18 @@ public class TipexScript : MonoBehaviour
 
         if (collider.gameObject.tag == "Bullet")
         {
-            Destroy(gameObject);
+            if (lives < 0)
+            {
+                Destroy(gameObject);
+
+            }
+            else
+            {
+                lives -= 1;
+            }
 
         }
+
 
         if (collider.gameObject.tag == "Player")
         {
