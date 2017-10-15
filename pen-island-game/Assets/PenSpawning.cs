@@ -30,6 +30,18 @@ public class PenSpawning : MonoBehaviour {
             penPrefab,
             transform.position + offset,
             transform.rotation);
+
+            var spawnScale = Random.Range(-0.55f, 1f);
+            var spawnScale2 = spawnScale * spawnScale;
+
+            var scale = pen.transform.localScale;
+
+            scale.x = spawnScale2;
+            scale.y = spawnScale2;
+            scale.z = spawnScale2;
+
+
+
         }
 		
 	}
