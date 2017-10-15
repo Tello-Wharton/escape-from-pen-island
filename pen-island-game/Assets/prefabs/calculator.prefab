@@ -84,6 +84,7 @@ GameObject:
   - component: {fileID: 95181377427929560}
   - component: {fileID: 114554949528822742}
   - component: {fileID: 54439145954376240}
+  - component: {fileID: 135533067922045536}
   m_Layer: 0
   m_Name: calculator
   m_TagString: Untagged
@@ -215,6 +216,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28dd076de0546be40b13bbc78c918503, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &135533067922045536
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1856380234363988}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4
+  m_Center: {x: 0, y: 4, z: 0}
 --- !u!137 &137597395481492480
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
